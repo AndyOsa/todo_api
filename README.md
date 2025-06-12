@@ -18,3 +18,4 @@ cd todo_api
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+python manage.py test
