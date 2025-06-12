@@ -11,6 +11,10 @@ TO-DO List API
 
 Встановлення
 
-1. Створи віртуальне середовище:
+
 ```bash
-python -m venv .venv
+git clone https://github.com/AndyOsa/todo_api.git
+cd todo_api
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
